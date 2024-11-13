@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>Weather APP</h1>
+    <button id="openWeatherCard">CLICK</button>
+   </header>
+
+    <div class="card" id="cardContainer">
+        <div class="search">
+            <input type="text" placeholder="Search" id="search-box" class="search-box">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="weather">
+            <h2 class="city">Enter a City</h2>
+            <h1 class="temp">0°C</h1>
+            <div class="flex">
+                <img src="./whether.png" class="icon" alt="Weather Icon" />
+                <div class="description">Description</div>
+            </div>
+            <div class="content">
+                <div class="humidity">Humidity: TBD</div>
+                <div class="wind">Wind Speed: TBD km/h</div>
+                <div class="pressure">Pressure: TBD hPa</div>
+                <div class="timezone">Timezone: TBD UTC</div>
+                <div class="visibility">Visibility: TBD</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
